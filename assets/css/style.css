@@ -1,11 +1,29 @@
-.titlebar {background-color: white;}
-#name {background-color: teal;}
+.titlebar {
+    background-color: white;
+    border: 18px #cccccc;
+}
+#name {
+    background-color: teal;
+    width: auto;
+    text-align: center;
+    float: left;
+}
 
+#tabs {float: right;}
+
+.about {clear: left}
 
 
 img {
     width: 200px;
     height: 200px;
     margin-right: 20px;
+    float: left;
 }
 
+footer {
+    clear: left;
+    text-align: center;
+    color: white;
+    background-color: #666666;
+}
