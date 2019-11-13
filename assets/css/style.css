@@ -1,6 +1,13 @@
 .titlebar {
     background-color: white;
-    border: 18px #cccccc;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-width: 18px, 18px, 18px, 18px;
+    border-color: pink;
+    margin: 10px auto;
+    padding: 10px, 10px, 10px, 10px;
 }
 #name {
     background-color: teal;
@@ -11,7 +18,7 @@
 
 #tabs {float: right;}
 
-.about {clear: left}
+.about {clear: both}
 
 
 img {
