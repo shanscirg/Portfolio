@@ -1,45 +1,47 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     line-height: 28px;
-    width: 1000px;
+    width: 960px;
     background: #E7E7E7;
-    color: #777;
+    color: #777777;
     display: inline-block;
     margin: 0px;
+    background-image: url("triangle-mosaic.png");
 }
 
 .titlebar {
-    background-color: white;
+    background-color: #ffffff;
     border-bottom-style: solid;
     border-width: 1px;
-    border-color: #777;
+    border-color: #cccccc;
     padding: 10px, 10px, 10px, 10px;
     height: 75px;
     text-align: center;
-    width: 1000px;
+    width: 1200px;
 }
 
 #name {
-    background-color: #1EB4A1;
+    background-color: #4aaaa5;
     width: 275px;
     float: left;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     height: 57px;
     display: inline-block;
-    padding: 20px;
+    padding: 20px 10px 20px 10px;
     position: relative;
-    left: 6%;
+    left: 13.75%;
     top: -22.7px;
     line-height: 75px;
     margin: 0px;
+    font-size: 25px;
 }
 
 nav {
     float: right;
     position: relative;
-    right: 10%;
+    right: 14.5%;
     display: inline-block;
     text-align: center;
     line-height: 80px;
@@ -49,17 +51,17 @@ nav {
     clear: both;
     width: 800px;
     height: 240px;
-    border: .25px solid #CACACA;
+    border: .25px solid #dddddd;
     padding: 30px;
     margin: 30px 30px 100px 30px;
-    background: white;
+    background: #ffffff;
     position: relative;
-    left: 30px;
+    left: 135px;
 }
 
 #teal {
-    color:#1EB4A1;
-    font-family: 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     line-height: 20px;
     margin: 0px;
     padding: 0px 0px 10px 0px;
@@ -76,17 +78,18 @@ img {
 footer {
     clear: left;
     text-align: center;
-    color: white;
+    color: #cccccc;
     background-color: #666666;
     font-size: 10px;
     height: 50px;
+    width: 1200px;
+    border-top: 8px solid #4aaaa5;
+    line-height: 80px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 #line1 {
     border: 1px solid #CACACA;
-}
-
-#line2 {
-    border: 5px solid #1EB4A1;
-    margin: 0px;
 }
