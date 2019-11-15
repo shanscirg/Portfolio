@@ -7,7 +7,7 @@ body {
     color: #777777;
     display: inline-block;
     margin: 0px;
-    background-image: url("triangle-mosaic.png");
+    background-image: url("assets/images/triangle-mosaic.png");
 }
 
 .titlebar {
@@ -68,7 +68,7 @@ nav {
     padding: 0px 0px 10px 0px;
 }
 
-img {
+#profpic {
     width: 170px;
     height: 170px;
     margin-right: 20px;
@@ -111,18 +111,67 @@ input[type=text], select, textarea {
     box-sizing: border-box; 
     margin-top: 6px;
     margin-bottom: 16px; 
-  }
+}
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #4aaaa5;
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
-  }
+}
   
-  #container {
+#container {
     background-color: #ffffff;
     padding: 10px;
     height: auto;
-  }
+}
+
+.comingsoon {
+      box-sizing: border-box;
+      width: 250px;
+      height: auto;
+      padding: 20px 20px 20px 0px;
+}
+
+.imagecontainer {
+      position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 50px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 190px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img1 {
+    float: left;
+}
+
+#img2 {
+    float: right;
+}
+
+#img3 {
+    clear: left;
+}
+
+#img4 {
+    float: right;
+}
+
+#img5 {
+    clear: left;
+}
+
+#img6 {
+    float: right;
+}
