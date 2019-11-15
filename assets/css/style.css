@@ -1,31 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    width: 1000px;
+    background: #E7E7E7;
+    color: #777;
+    display: inline-block;
+    margin: 0px;
+}
+
 .titlebar {
     background-color: white;
-    border-top-style: dotted;
-    border-right-style: solid;
-    border-bottom-style: dotted;
-    border-left-style: solid;
-    border-width: 18px, 18px, 18px, 18px;
-    border-color: pink;
-    margin: 10px auto;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #777;
     padding: 10px, 10px, 10px, 10px;
-}
-#name {
-    background-color: teal;
-    width: auto;
+    height: 75px;
     text-align: center;
-    float: left;
+    width: 1000px;
 }
 
-#tabs {float: right;}
+#name {
+    background-color: #1EB4A1;
+    width: 275px;
+    float: left;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 57px;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    left: 6%;
+    top: -22.7px;
+    line-height: 75px;
+    margin: 0px;
+}
 
-.about {clear: both}
+nav {
+    float: right;
+    position: relative;
+    right: 10%;
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+}
 
+.about {
+    clear: both;
+    width: 800px;
+    height: 240px;
+    border: .25px solid #CACACA;
+    padding: 30px;
+    margin: 30px 30px 100px 30px;
+    background: white;
+    position: relative;
+    left: 30px;
+}
+
+#teal {
+    color:#1EB4A1;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+}
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     margin-right: 20px;
     float: left;
+    padding: 10px 5px 10px 5px;
 }
 
 footer {
@@ -33,4 +78,15 @@ footer {
     text-align: center;
     color: white;
     background-color: #666666;
+    font-size: 10px;
+    height: 50px;
+}
+
+#line1 {
+    border: 1px solid #CACACA;
+}
+
+#line2 {
+    border: 5px solid #1EB4A1;
+    margin: 0px;
 }
