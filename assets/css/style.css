@@ -7,7 +7,6 @@ body {
     color: #777777;
     display: inline-block;
     margin: 0px;
-    background-image: url("assets/images/triangle-mosaic.png");
 }
 
 .titlebar {
@@ -95,13 +94,15 @@ footer {
     border: 1px solid #CACACA;
 }
 
-.port:default {
+/* CHANGE THIS COLOR ---> */
+a {
     color: #777777;
 }
 
-.cont:default {
-    color: #777777;
+a:visited {
+    color: #4e4e4e;
 }
+
 
 /* CONTACT FORM */
 input[type=text], select, textarea {
@@ -136,6 +137,7 @@ input[type=submit] {
 
 .imagecontainer {
       position: relative;
+      display: inline-block;
 }
 
 .text-block {
@@ -150,28 +152,4 @@ input[type=submit] {
     line-height: 1px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#img1 {
-    float: left;
-}
-
-#img2 {
-    float: right;
-}
-
-#img3 {
-    clear: left;
-}
-
-#img4 {
-    float: right;
-}
-
-#img5 {
-    clear: left;
-}
-
-#img6 {
-    float: right;
 }
